@@ -1,0 +1,12 @@
+echo "Fixing VA"
+perl ./parseDoctors.pl VA
+perl ./parseRatings.pl VA
+perl ./parseFeedback.pl VA
+echo "Fixing MA"
+perl ./parseDoctors.pl MA
+perl ./parseRatings.pl MA
+perl ./parseFeedback.pl MA
+echo "Fixing TX";
+perl ./parseDoctors.pl TX
+perl ./parseRatings.pl TX
+perl ./parseFeedback.pl TX
